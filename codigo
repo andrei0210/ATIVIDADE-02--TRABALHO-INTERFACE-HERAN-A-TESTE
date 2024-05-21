@@ -1,0 +1,25 @@
+public class ContaCorrente {
+    private double saldo;
+
+    public ContaCorrente() {
+        this.saldo = 0;
+    }
+
+    public void depositar(double valor) {
+        this.saldo += valor;
+    }
+
+    public
+        if (valor <= this.saldo) {
+            this.saldo -= valor;
+            this.saldo -= 5;
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public double obterSaldo() {
+        return this.saldo;
+    }
+}
